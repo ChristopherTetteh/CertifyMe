@@ -1,8 +1,7 @@
 import { ethers } from 'hardhat';
 import { Contract, Signer } from 'ethers';
 import { expect } from 'chai';
-import { CertContract } from '../typechain-types';
-//import {CertContract} from '../contracts/CertContract.sol';
+
 
 describe('CertifyMe Contract',  function () {
   let certContract: any;
