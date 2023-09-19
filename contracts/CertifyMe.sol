@@ -25,9 +25,10 @@ contract CertifyMe {
     function createCertificate(
         string memory _name,
         string memory _issuer,
-        uint256 _issueDate
+        uint256 _issueDate,
+        address _to
     ) external onlyContractOwner {
-        certificates.push(Certificate(_name, _issuer, _issueDate, address(this)));
+        certificates.push(Certificate(_name, _issuer, _issueDate, _to));
     }
 
     function getCertificate(uint256 _certificateId)
