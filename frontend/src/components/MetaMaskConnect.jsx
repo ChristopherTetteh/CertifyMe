@@ -15,10 +15,10 @@ const MetaMaskConnect = () => {
       )}
       {status === "unavailable" && <p>Please Install MetaMask</p>}
       {status === "connected" && (
-        <div>
-          <Link to="/AddQualifications">AddQualifications</Link>
+        <div className="d-flex gap-5">
+          <Link to="/AddQualifications" className="text-decoration-none text-dark">AddQualifications</Link>
 
-          <Link to="/Viewing-of-Certificate">Viewing of Certificate</Link>
+          <Link to="/Viewing-of-Certificate" className="text-decoration-none text-dark">Viewing of Certificate</Link>
         </div>
       )}
     </div>

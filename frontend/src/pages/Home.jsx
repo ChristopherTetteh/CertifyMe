@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="banner">
+      <div style={{width: "100%", height: "90vh"}}>
         {/* Add your banner image here */}
-        <img src="./graduation.jpg" alt="Banner" />
+        <img src="./graduation.jpg" alt="Banner" className='w-100 h-100'/>
       </div>
       
     </div>

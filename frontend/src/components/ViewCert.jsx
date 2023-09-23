@@ -3,6 +3,7 @@ import ABI from './utils/abi.json'
 import { ethers } from "ethers";
 import "../stylesheets/style.css";
 import "../stylesheets/issueStyle.css";
+import { Link } from "react-router-dom";
 
 const ViewCert = () => {
     const [certID, setCertID] = useState('')
@@ -12,9 +13,9 @@ const ViewCert = () => {
 
     const courseOptions = ["Certified Blockchain Associate", "Certified Ethereum Developer", "Blockchain Foundation", "Ether"]
 
-    const ADDRESS = " 0x5330311658199d78E59984ae50b9389Be17c87bF"
+    // const ADDRESS = " 0x5330311658199d78E59984ae50b9389Be17c87bF"
 
-    const provider = new ethers.Contract(ADDRESS, ABI)
+    // const provider = new ethers.Contract(ADDRESS, ABI)
 
 
     const handleSubmit = async(e) => {
@@ -27,23 +28,23 @@ const ViewCert = () => {
     }
   return (
     <div>
-      <div class="header">
-        <a href="/" class="logo">
+      <div className="header">
+        <a href="/" className="logo">
           Certificate Dapp
         </a>
-        <div class="header-right">
-          <a href="index.html">Home</a>
-          <a class="active" href="issueCertificate.html">
+        <div className="header-right">
+          <Link to="/">Home</Link>
+          <Link to="/Viewing-of-Certificate" className="active">
             Issue Certificate
-          </a>
+          </Link>
         </div>
       </div>
       <br />
-      <form class="entry-form">
+      <form className="entry-form">
         <h3>Issue New Certificate</h3>
-        <div class="form-group">
+        <div className="form-group">
           <label for="courseName">Select Course *</label>
-          <select class="form-control" name="courseName" id="courseName">
+          <select className="form-control" name="courseName" id="courseName">
             <option>Certified Blockchain Associate</option>
             <option>Certified Ethereum Developer</option>
             <option>Blockchain Foundation</option>
@@ -51,48 +52,48 @@ const ViewCert = () => {
           </select>
         </div>
 
-        <div class="form-group">
+        <div className="form-group">
           <label for="certificateID">Certificate ID *</label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             name="certificateID"
             id="certificateID"
             placeholder="Certificate ID"
             required
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label for="candidateName">Candidate name *</label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             name="candidateName"
             id="candidateName"
             placeholder="Name"
             required
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label for="grade">Select Grade *</label>
-          <select class="form-control" id="grade" name="grade">
+          <select className="form-control" id="grade" name="grade">
             <option>S</option>
             <option>A</option>
             <option>B</option>
             <option>C</option>
           </select>
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label for="date">Issue Date *</label>
           <input
             type="date"
-            class="form-control"
+            className="form-control"
             id="date"
             name="date"
             required
           />
         </div>
-        <button onclick="issueCertificate()" class="btn btn-info">
+        <button onclick="issueCertificate()" className="btn btn-info">
           Issue Certificate
         </button>
       </form>
