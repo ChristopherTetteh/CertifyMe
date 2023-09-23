@@ -7,7 +7,7 @@ const Home = () => {
       <Navbar />
       <div style={{width: "100%", height: "90vh"}}>
         {/* Add your banner image here */}
-        <img src="./graduation.jpg" alt="Banner" className='w-100 h-100'/>
+        <img src="./graduation.jpg" alt="Banner" className='w-100 h-90'/>
       </div>
       
     </div>
