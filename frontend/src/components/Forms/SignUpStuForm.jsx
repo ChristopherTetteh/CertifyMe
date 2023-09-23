@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate, Link } from "react-router-dom";
 import { auth } from "../../firebase";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
+
 import Form from "react-bootstrap/Form";
 
 const SignUpForm = () => {
@@ -18,9 +19,9 @@ const SignUpForm = () => {
     e.preventDefault();
     try {
       if (password !== password) {
-        toast.error("Password do not match, Plase Try Again", {
-          position: "bottom-left",
-        });
+        // toast.error("Password do not match, Plase Try Again", {
+        //   position: "bottom-left",
+        // });
         return;
       }
       const data = await createUserWithEmailAndPassword(auth, email, password);

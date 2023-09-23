@@ -10,8 +10,7 @@ import AddQualifications from "./pages/AddQualifications";
 import SignIn from "./pages/SignIn";
 import GenerateTranscripts from "./pages/GenerateTranscripts";
 import "bootstrap/dist/css/bootstrap.css";
-import {ToastContainer} from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+
 
 function App() {
   return (
@@ -28,7 +27,7 @@ function App() {
         <Route path="/AddQualifications" element={<AddQualifications/>}/>
 
       </Routes>
-      <ToastContainer />
+
    </BrowserRouter>
   );
 }

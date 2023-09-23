@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../../firebase";
-import { toast } from "react-toastify";
+
 import Form from "react-bootstrap/Form";
 
 const SignUpAdminFm = () => {
@@ -17,17 +17,13 @@ const SignUpAdminFm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      if (password !== confirmPassword) {
-        toast.error("Password do not match, Plase Try Again", {
-          position: "bottom-left",
-        });
-        return;
-      }
       const data = await createUserWithEmailAndPassword(auth, email, password);
       console.log(data.user);
       navigate("/AddQualifications");
-    } catch (err) {
-      console.log(err);
+
+      
+    }catch(err){
+
     }
   };
 //   auth/invalid-email
