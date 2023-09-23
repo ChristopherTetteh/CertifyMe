@@ -18,7 +18,7 @@ const MetaMaskConnect = () => {
         <div>
           <Link to="/AddQualifications">AddQualifications</Link>
 
-          <Link to="/ViewingofCertificate">Viewing of Certificate</Link>
+          <Link to="/Viewing-of-Certificate">Viewing of Certificate</Link>
         </div>
       )}
     </div>
