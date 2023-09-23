@@ -1,8 +1,11 @@
 import React from 'react'
+import ViewCertificate from '../components/ViewCertificate/ViewCertificate'
 
 const ViewingofCertificate = () => {
   return (
-    <div>ViewingofCertificate</div>
+    <div>
+      <ViewCertificate />
+    </div>
   )
 }
 
