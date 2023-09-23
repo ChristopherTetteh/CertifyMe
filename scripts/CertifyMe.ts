@@ -8,7 +8,7 @@ async function main() {
   const CertifyMe = await ethers.getContractFactory('CertifyMe');
   const certifyMe = await CertifyMe.deploy();
 
-  console.log('CertifyMe contract address:', certifyMe.address);
+  console.log('CertifyMe contract address:', certifyMe.target);
 }
 
 main()

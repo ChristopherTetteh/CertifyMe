@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import ABI from './utils/abi.json'
+import { ethers } from "ethers";
 import "../stylesheets/style.css";
 import "../stylesheets/issueStyle.css";
 
@@ -9,6 +11,10 @@ const ViewCert = () => {
     
 
     const courseOptions = ["Certified Blockchain Associate", "Certified Ethereum Developer", "Blockchain Foundation", "Ether"]
+
+    const ADDRESS = " 0x5330311658199d78E59984ae50b9389Be17c87bF"
+
+    const provider = new ethers.Contract(ADDRESS, ABI)
 
 
     const handleSubmit = async(e) => {
