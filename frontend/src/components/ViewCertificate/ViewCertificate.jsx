@@ -57,22 +57,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -99,22 +83,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -141,22 +109,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -183,22 +135,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -225,22 +161,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -267,22 +187,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -309,22 +213,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -351,22 +239,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
@@ -393,22 +265,6 @@ const ViewCertificate = () => {
                             >
                               <i class="mdi mdi-dots-horizontal"></i>
                             </a>
-
-                            <div class="dropdown-menu dropdown-menu-end">
-                              <a class="dropdown-item" href="#">
-                                Open
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Edit
-                              </a>
-                              <a class="dropdown-item" href="#">
-                                Rename
-                              </a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">
-                                Remove
-                              </a>
-                            </div>
                           </div>
                         </td>
                       </tr>
