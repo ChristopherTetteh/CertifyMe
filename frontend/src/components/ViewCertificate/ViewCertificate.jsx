@@ -8,12 +8,12 @@ const ViewCertificate = () => {
           <div class="col-xl-12">
             <div class="card">
               <div class="card-body">
-                <h5 class="font-size-16 me-3 mb-0">My Files</h5>
+                <h5 class="font-size-16 me-3 mb-0">CertifyMe</h5>
 
                 <div class="row mt-4"></div>
 
                 <div class="d-flex flex-wrap">
-                  <h5 class="font-size-16 me-3">Recent Files</h5>
+                  <h5 class="font-size-16 me-3">Recent Uploads</h5>
                   <div class="ms-auto">
                     <a href="javascript: void(0);" class="fw-medium text-reset">
                       View All
@@ -26,10 +26,10 @@ const ViewCertificate = () => {
                     <thead class="table-light">
                       <tr>
                         <th scope="col">Name</th>
-                        <th scope="col">Date modified</th>
-                        <th scope="col">Size</th>
+                        <th scope="col">Issue Date</th>
+                        <th scope="col">Issuer Name</th>
                         <th scope="col" colspan="2">
-                          Members
+                          Address
                         </th>
                       </tr>
                     </thead>
@@ -46,46 +46,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>12-10-2020, 09:45</td>
                         <td>09 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar6.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar7.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <div class="avatar-sm">
-                                  <span class="avatar-title rounded-circle bg-success text-white font-size-16">
-                                    A
-                                  </span>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -127,34 +88,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>11-10-2020, 17:05</td>
                         <td>115 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar2.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -196,34 +130,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>11-10-2020, 13:26</td>
                         <td>86 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <div class="avatar-sm">
-                                  <span class="avatar-title rounded-circle bg-info text-white font-size-16">
-                                    K
-                                  </span>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar3.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -265,46 +172,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>10-10-2020, 11:32</td>
                         <td>08 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar4.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar5.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -346,46 +214,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>10-10-2020, 10:51</td>
                         <td>72 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar3.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <div class="avatar-sm">
-                                  <span class="avatar-title rounded-circle bg-danger text-white font-size-16">
-                                    3+
-                                  </span>
-                                </div>
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -427,34 +256,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>09-10-2020, 17:05</td>
                         <td>07 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar4.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar6.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -496,34 +298,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>09-10-2020, 15:12</td>
                         <td>31 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <div class="avatar-sm">
-                                  <span class="avatar-title rounded-circle bg-pink text-white font-size-16">
-                                    L
-                                  </span>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar2.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -565,58 +340,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>09-10-2020, 10:11</td>
                         <td>20 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar4.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar5.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <div class="avatar-sm">
-                                  <span class="avatar-title rounded-circle bg-success text-white font-size-16">
-                                    A
-                                  </span>
-                                </div>
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar2.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a
@@ -658,34 +382,7 @@ const ViewCertificate = () => {
                         </td>
                         <td>08-10-2020, 03:22</td>
                         <td>11 KB</td>
-                        <td>
-                          <div class="avatar-group">
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar8.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                            <div class="avatar-group-item">
-                              <a
-                                href="javascript: void(0);"
-                                class="d-inline-block"
-                              >
-                                <img
-                                  src="https://bootdey.com/img/Content/avatar/avatar2.png"
-                                  alt=""
-                                  class="rounded-circle avatar-sm"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </td>
+
                         <td>
                           <div class="dropdown">
                             <a

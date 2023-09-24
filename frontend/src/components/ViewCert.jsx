@@ -35,7 +35,7 @@ const ViewCert = () => {
         <div className="header-right">
           <Link to="/">Home</Link>
           <Link to="/Viewing-of-Certificate" className="active">
-            Issue Certificate
+            View Certificate
           </Link>
         </div>
       </div>
@@ -77,10 +77,10 @@ const ViewCert = () => {
         <div className="form-group">
           <label for="grade">Select Grade *</label>
           <select className="form-control" id="grade" name="grade">
-            <option>S</option>
             <option>A</option>
             <option>B</option>
             <option>C</option>
+            <option>D</option>
           </select>
         </div>
         <div className="form-group">
