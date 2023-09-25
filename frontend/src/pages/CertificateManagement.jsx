@@ -3,6 +3,7 @@
 import { ethers } from "ethers";
 import React, { useState, useEffect } from "react";
 import ViewCertificate from "./ViewCertificate"; // Update the path to match the actual location of your component
+import { providers } from 'ethers';
 
 // Define your smart contract address and ABI
 const CONTRACT_ADDRESS = "0x82dF339D06a087D3789B1760a701597c1dE71aCD";
